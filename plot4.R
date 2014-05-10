@@ -32,7 +32,7 @@ png(bg = "white",
 )
 par(mfrow=c(2,2))
 #graph 1
-plot(x<- df$DateTime, y<-df$Global_active_power, ylab = list("Global Active Power (kilowatts)", cex=0.9), xlab = "", type = "l", col = "black") 
+plot(x<- df$DateTime, y<-df$Global_active_power, ylab = list("Global Active Power", cex=0.9), xlab = "", type = "l", col = "black") 
 #graph 2
 plot(x<- df$DateTime, y<-df$Voltage, ylab = list("Voltage", cex=0.9), xlab = "datetime", type = "l", col = "black") 
 #graph 3
