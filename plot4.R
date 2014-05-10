@@ -30,6 +30,7 @@ png(bg = "white",
     width = 480, 
     height = 480
 )
+#set 4 view panels
 par(mfrow=c(2,2))
 #graph 1
 plot(x<- df$DateTime, y<-df$Global_active_power, ylab = list("Global Active Power", cex=0.9), xlab = "", type = "l", col = "black") 
