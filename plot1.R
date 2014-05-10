@@ -14,7 +14,6 @@ repeat {
   }
 }
 
-
 close(f)
 
 tc<-textConnection(greped,"rt") #now we create a text connection and load data
